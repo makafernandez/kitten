@@ -1,0 +1,19 @@
+body {
+	margin: 0;
+}
+
+.cover {
+	outline: 1px dashed magenta;
+	background-image: url(../img/dawn.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 675px;
+	text-align: center;
+}
+
+.cat {
+	vertical-align: bottom;
+	padding-top: 25%;
+}
+
