@@ -1,12 +1,12 @@
-@media ( min-width: 500px ) and (max-width: 850px ){
+@media ( min-width: 500px ) and (max-width: 650px ){
 	[class *= "col-"] {
 		width: 100%;
 	}
 	
 	.cover {
 		background-image: url(../img/night.jpg);
-		width: 500px;
-		height: 500px;
+		/*width: 100vw;
+		height: 100vh;*/
 	}
 	
 	img {
@@ -21,12 +21,11 @@
 	
 	.cover {
 		background-image: url(../img/sunny-day.jpg);
-		width: 499px;
-		height: 300px;
+		/*width: 100vw;
+		height: 100vh;*/
 	}
 	
 	img {
 		content: url(../img/kitten-medium.png);
-		width: 50%;
 	}
 }

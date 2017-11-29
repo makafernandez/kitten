@@ -3,17 +3,21 @@ body {
 }
 
 .cover {
-	outline: 1px dashed magenta;
 	background-image: url(../img/dawn.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	height: 675px;
-	text-align: center;
+	width: 100%;
 }
 
-.cat {
-	vertical-align: bottom;
-	padding-top: 25%;
+.cat-box {
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+	padding-top: 60vh;
+}
+
+#cat {
+	width: 40%;
 }
 
